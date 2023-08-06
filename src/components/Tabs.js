@@ -19,7 +19,7 @@ const Tabs = ({tabs}) => {
             </ul>
             {
                 selected &&
-                <p>{selected}</p>
+                <p>{selected} /p>
             }
         </div>
     )
