@@ -8,16 +8,16 @@ const App = () => {
   
   const tabs = [
     {
-      title: "Apple",
-      content: "An Apple a day keep the doctor away."
+      title: "Tab 1",
+      content: "This is the content for Tab 1."
     },
     {
-      title: "Orange",
-      content: "Oranges are citrus fruits."
+      title: "Tab 2",
+      content: "This is the content for Tab 2."
     },
     {
-      title: "Mango",
-      content: "Mango is a seasonal friut of summer."
+      title: "Tab 3",
+      content: "This is the content for Tab 3."
     }
   ]
   

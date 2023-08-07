@@ -2,7 +2,7 @@ import React,{useState} from "react";
 
 const Tabs = ({tabs}) => {
 
-    let [selected,setSelected] = useState("")
+    let [selected,setSelected] = useState(tabs[0].content)
 
     function display(tab){
         setSelected(tab.content)
@@ -19,7 +19,7 @@ const Tabs = ({tabs}) => {
             </ul>
             {
                 selected &&
-                <p>{selected} /p>
+                <p>{selected} </p>
             }
         </div>
     )
